@@ -12,7 +12,7 @@
 <body>
     @include('layouts._header')
 
-    <div class="container" style="margin-top: 7%;">
+    <div class="container" style="margin-top: 100px;">
         <div class="offset-md-1 col-md-10">
             @include('shared._message')
             @yield('content')
